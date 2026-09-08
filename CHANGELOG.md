@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/BROngineer/oh-my-env/compare/v1.0.0...v1.0.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* set minimum_release_age to 0s for oh-my-env tool ([#2](https://github.com/BROngineer/oh-my-env/issues/2)) ([c902bb6](https://github.com/BROngineer/oh-my-env/commit/c902bb66ce52ad57d7f1ee9bb7b46a432aca5714))
+
 ## 1.0.0 (2026-09-08)
 
 
