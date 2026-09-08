@@ -1,0 +1,21 @@
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+name: release-assets
+
+jobs:
+  upload-configs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: build configs tarball
+        run: tar -czf oh-my-env-configs.tar.gz configs
+      - name: upload release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "${{ github.ref_name }}" oh-my-env-configs.tar.gz --clobber

@@ -1,0 +1,5 @@
+[tools]
+lfk = "v0.18.9"
+
+[tool_alias]
+lfk = "github:janosmiko/lfk"

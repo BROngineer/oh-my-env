@@ -1,6 +1,10 @@
+[settings]
+lockfile = true
+auto_update = true
+
 [tools]
 oh-my-env = {
-    version = "latest",
+    version = "v1.0.0", # x-release-please-version
     asset_pattern = "oh-my-env-configs.tar.gz",
     postinstall = "cp -R $MISE_TOOL_INSTALL_PATH/configs/* ~/.config/mise/"
 }
