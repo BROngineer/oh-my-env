@@ -1,0 +1,8 @@
+[tools]
+oh-my-env = {
+    version = "latest",
+    postinstall = "cp $MISE_TOOL_INSTALL_PATH/conf.d/*.toml ~/.config/mise/conf.d/"
+}
+
+[tool_alias]
+oh-my-env = "github:BROngineer/oh-my-env"

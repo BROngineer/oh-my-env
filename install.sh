@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 MISE_REPO="jdx/mise"
 MISE_VERSION="${MISE_VERSION:-latest}"
 INSTALL_DIR="${INSTALL_DIR:-$HOME/.local/bin}"
@@ -108,5 +109,21 @@ configure_zsh_activation() {
   log "added mise activation to ${zshrc}"
 }
 
+configure_oh_my_env_tool() {
+  local src="${SCRIPT_DIR}/mise/bootstrap.toml"
+  local dest_dir="$HOME/.config/mise"
+  local dest="${dest_dir}/config.toml"
+
+  if [ -e "$dest" ]; then
+    log "${dest} already exists, skipping"
+    return
+  fi
+
+  mkdir -p "$dest_dir"
+  cp "$src" "$dest"
+  log "installed oh-my-env mise tool config to ${dest}"
+}
+
 install_mise
 configure_zsh_activation
+configure_oh_my_env_tool
