@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/BROngineer/oh-my-env/compare/v1.0.1...v1.0.2) (2026-09-08)
+
+
+### Bug Fixes
+
+* address mise asset root folder strip on unpack ([#4](https://github.com/BROngineer/oh-my-env/issues/4)) ([ab4be94](https://github.com/BROngineer/oh-my-env/commit/ab4be94fde763877fb1ce343e04fdf41e1fd3e97))
+
 ## [1.0.1](https://github.com/BROngineer/oh-my-env/compare/v1.0.0...v1.0.1) (2026-09-08)
 
 
