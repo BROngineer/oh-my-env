@@ -2,6 +2,7 @@
 oh-my-env = {
     version = "latest",
     asset_pattern = "oh-my-env-configs.tar.gz",
+    minimum_release_age = "0s",
     postinstall = "cp -R $MISE_TOOL_INSTALL_PATH/configs/* ~/.config/mise/"
 }
 
