@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/BROngineer/oh-my-env/compare/v1.2.0...v1.3.0) (2026-09-09)
+
+
+### Features
+
+* add homebrew bin to PATH ([#10](https://github.com/BROngineer/oh-my-env/issues/10)) ([b98ddbb](https://github.com/BROngineer/oh-my-env/commit/b98ddbbc6a13b5fae68296ea2e0b3e8ae46db3b0))
+
 ## [1.2.0](https://github.com/BROngineer/oh-my-env/compare/v1.1.0...v1.2.0) (2026-09-09)
 
 
