@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/BROngineer/oh-my-env/compare/v1.3.0...v1.4.0) (2026-09-09)
+
+
+### Features
+
+* add tools and aliases ([#12](https://github.com/BROngineer/oh-my-env/issues/12)) ([d0cce13](https://github.com/BROngineer/oh-my-env/commit/d0cce13e5655696885528d7b68e7896c56ddcb67))
+
 ## [1.3.0](https://github.com/BROngineer/oh-my-env/compare/v1.2.0...v1.3.0) (2026-09-09)
 
 
