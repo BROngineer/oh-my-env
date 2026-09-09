@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/BROngineer/oh-my-env/compare/v1.1.0...v1.2.0) (2026-09-09)
+
+
+### Features
+
+* add python and pipx ([#8](https://github.com/BROngineer/oh-my-env/issues/8)) ([90ae786](https://github.com/BROngineer/oh-my-env/commit/90ae786f26457ca73b4a520e39c5af9445c7f018))
+
 ## [1.1.0](https://github.com/BROngineer/oh-my-env/compare/v1.0.2...v1.1.0) (2026-09-09)
 
 
