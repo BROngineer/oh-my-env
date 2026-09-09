@@ -4,7 +4,7 @@ auto_update = true
 
 [tools]
 oh-my-env = {
-    version = "v1.2.0", # x-release-please-version
+    version = "v1.3.0", # x-release-please-version
     asset_pattern = "oh-my-env-configs.tar.gz",
     minimum_release_age = "0s",
     postinstall = "cp -R $MISE_TOOL_INSTALL_PATH/* ~/.config/mise/"
