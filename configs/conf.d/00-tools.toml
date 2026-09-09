@@ -1,5 +1,13 @@
 [tools]
+go = "1.27.0"
 lfk = "v0.18.9"
+atuin = "18.21.0"
+kubectl = "1.36.0"
+clusterctl = "1.13.4"
+awscli = "2.36.5"
+yq = "4.53.3"
+gcloud = "569.0.0"
+azure-cli = "2.90.0"
 
 [tool_alias]
 lfk = "github:janosmiko/lfk"
