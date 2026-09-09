@@ -1,5 +1,6 @@
 [tools]
 go = "1.27.0"
+gh = "2.100.0"
 lfk = "v0.18.9"
 atuin = "18.21.0"
 kubectl = "1.36.0"
@@ -11,6 +12,7 @@ azure-cli = "2.90.0"
 pipx = "1.16.7"
 pytest = "9.1.1"
 python = "3.13.7"
+krew = "v0.5.0"
 
 [tool_alias]
 lfk = "github:janosmiko/lfk"
