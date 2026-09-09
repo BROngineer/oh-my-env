@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "commitMessagePrefix": "chore(deps):",
+  "mise": {
+    "fileMatch": ["^configs/conf\\.d/.*\\.toml$"]
+  }
+}
