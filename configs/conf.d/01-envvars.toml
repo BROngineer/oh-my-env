@@ -1,4 +1,5 @@
 [env]
+_.path = ["/opt/homebrew/bin"]
 GONOSUMDB = "github.com/timescale/*,github.com/BROngineer/*"
 GONOPROXY = "github.com/timescale/*,github.com/BROngineer/*"
 GOPRIVATE = "github.com/timescale/*,github.com/BROngineer/*"
