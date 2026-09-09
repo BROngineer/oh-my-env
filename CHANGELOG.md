@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/BROngineer/oh-my-env/compare/v1.4.0...v1.4.1) (2026-09-09)
+
+
+### Miscellaneous
+
+* add renovate and config ([#14](https://github.com/BROngineer/oh-my-env/issues/14)) ([33478db](https://github.com/BROngineer/oh-my-env/commit/33478dbda98aff4963882d4e61f099da35df13e8))
+
 ## [1.4.0](https://github.com/BROngineer/oh-my-env/compare/v1.3.0...v1.4.0) (2026-09-09)
 
 
