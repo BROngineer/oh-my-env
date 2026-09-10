@@ -14,3 +14,4 @@ jobs:
           token: ${{ secrets.AUTOMATION_TOKEN }}
         env:
           RENOVATE_GITHUB_COM_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
+          RENOVATE_REPOSITORIES: ${{ github.repository }}

@@ -37,7 +37,7 @@ The script also:
 
 `bootstrap.toml` declares `oh-my-env` itself as a `github:` tool with a
 `postinstall` hook, so `mise up` fetches this repo's release assets and
-drops any `conf.d/*.toml` they contain into `~/.config/mise/conf.d/` —
-letting the rest of the global config (settings, other tools, etc.) be
-delivered and updated through mise itself, rather than through this
-installer.
+drops any `configs/*.toml` and `configs/conf.d/*.toml` they contain into 
+`~/.config/mise/` — letting the rest of the global config (settings, 
+other tools, etc.) be delivered and updated through mise itself, rather 
+than through this installer.
