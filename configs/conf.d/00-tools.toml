@@ -2,7 +2,7 @@
 go = "1.27.1"
 gh = "2.100.0"
 lfk = "v0.18.9"
-atuin = "18.21.0"
+atuin = "18.22.0"
 kubectl = "1.36.0"
 clusterctl = "1.13.4"
 awscli = "2.36.43"
