@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.2](https://github.com/BROngineer/oh-my-env/compare/v1.4.1...v1.4.2) (2026-09-12)
+
+
+### Bug Fixes
+
+* add repositories to renovate config ([#16](https://github.com/BROngineer/oh-my-env/issues/16)) ([25c1e2d](https://github.com/BROngineer/oh-my-env/commit/25c1e2de0dff78c93890b90fe541f0e5df72f111))
+* set renovate commit message to lowercase ([#21](https://github.com/BROngineer/oh-my-env/issues/21)) ([7f23cb0](https://github.com/BROngineer/oh-my-env/commit/7f23cb02bf5768ab38456c969f27eead994d26df))
+
+
+### Miscellaneous
+
+* **deps:** update dependency atuin to v18.22.0 ([#28](https://github.com/BROngineer/oh-my-env/issues/28)) ([cdac6c4](https://github.com/BROngineer/oh-my-env/commit/cdac6c4c1ed5e83c70337868ff9e08dee24da47e))
+* **deps:** update dependency awscli to v2.36.42 ([#23](https://github.com/BROngineer/oh-my-env/issues/23)) ([8915bac](https://github.com/BROngineer/oh-my-env/commit/8915bacffd5d820292ebee6b7ebec884c9da803f))
+* **deps:** update dependency awscli to v2.36.43 ([#25](https://github.com/BROngineer/oh-my-env/issues/25)) ([69bb596](https://github.com/BROngineer/oh-my-env/commit/69bb596bf42d4e2284ab1741a903fdcd6de3ecb7))
+* **deps:** update dependency awscli to v2.36.44 ([#27](https://github.com/BROngineer/oh-my-env/issues/27)) ([cb8229e](https://github.com/BROngineer/oh-my-env/commit/cb8229e8f84ab0614caa01737bab6e958a025dd3))
+* **deps:** update dependency go to v1.27.1 ([#24](https://github.com/BROngineer/oh-my-env/issues/24)) ([dd62c80](https://github.com/BROngineer/oh-my-env/commit/dd62c80b6e76678e4ff55cb7d60602f9794a8040))
+* **deps:** update dependency yq to v4.53.6 ([#26](https://github.com/BROngineer/oh-my-env/issues/26)) ([bb49f39](https://github.com/BROngineer/oh-my-env/commit/bb49f3982931b5586fc34126bccfcc948acc906e))
+
 ## [1.4.1](https://github.com/BROngineer/oh-my-env/compare/v1.4.0...v1.4.1) (2026-09-09)
 
 
