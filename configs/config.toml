@@ -7,7 +7,11 @@ oh-my-env = {
     version = "v1.4.2", # x-release-please-version
     asset_pattern = "oh-my-env-configs.tar.gz",
     minimum_release_age = "0s",
-    postinstall = "cp -R $MISE_TOOL_INSTALL_PATH/* ~/.config/mise/"
+    postinstall = '''
+        cp -R $MISE_TOOL_INSTALL_PATH/* ${HOME}/.config/mise/ && \
+        mkdir -p ${HOME}/.local/share/zsh/completions && \
+        (grep -qF 'fpath=(${HOME}/.local/share/zsh/completions $fpath)' ${HOME}/.zshrc || printf '%s\n%s\n' 'fpath=(${HOME}/.local/share/zsh/completions $fpath)' 'autoload -Uz compinit && compinit' >> ${HOME}/.zshrc)
+    '''
 }
 
 [tool_alias]

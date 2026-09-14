@@ -1,12 +1,34 @@
 [tools]
 go = "1.27.1"
-gh = "2.100.0"
-lfk = "v0.18.9"
-atuin = "18.22.0"
-kubectl = "1.37.0"
-clusterctl = "1.14.2"
+gh = {
+  version = "2.100.0",
+  postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && gh completion -s zsh > ${HOME}/.local/share/zsh/completions/_gh"
+}
+lfk = {
+  version = "v0.18.9",
+  postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && lfk completion zsh > ${HOME}/.local/share/zsh/completions/_lfk"
+}
+atuin = {
+  version = "18.22.0",
+  postinstall = '''
+    mkdir -p ${HOME}/.local/share/zsh/completions && \
+    atuin gen-completions --shell zsh > ${HOME}/.local/share/zsh/completions/_atuin && \
+    (grep -qF 'eval "$(atuin init zsh)"' ${HOME}/.zshrc || printf '%s\n' 'eval "$(atuin init zsh)"' >> ${HOME}/.zshrc)
+  '''
+}
+kubectl = {
+  version = "1.37.0",
+  postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kubectl completion zsh > ${HOME}/.local/share/zsh/completions/_kubectl"
+}
+clusterctl = {
+  version = "1.14.2",
+  postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && clusterctl completion zsh > ${HOME}/.local/share/zsh/completions/_clusterctl"
+}
 awscli = "2.36.44"
-yq = "4.53.6"
+yq = {
+  version = "4.53.6",
+  postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq"
+}
 gcloud = "569.0.0"
 azure-cli = "2.90.0"
 pipx = "1.17.2"
