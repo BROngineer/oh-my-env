@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.3](https://github.com/BROngineer/oh-my-env/compare/v1.4.2...v1.4.3) (2026-09-14)
+
+
+### Miscellaneous
+
+* add completion generator for tools ([#35](https://github.com/BROngineer/oh-my-env/issues/35)) ([e29e6b1](https://github.com/BROngineer/oh-my-env/commit/e29e6b1e0b3cc4a63ad513aa4124955bb0690958))
+* **deps:** update dependency pipx to v1.17.2 ([#32](https://github.com/BROngineer/oh-my-env/issues/32)) ([c6d5272](https://github.com/BROngineer/oh-my-env/commit/c6d5272eb9fe389765f56756d5fe72013852cb26))
+* **deps:** update dependency python to v3.14.7 ([#33](https://github.com/BROngineer/oh-my-env/issues/33)) ([32e8c0d](https://github.com/BROngineer/oh-my-env/commit/32e8c0da78d66f00ca146c4fdb9d0f5162618c9f))
+
 ## [1.4.2](https://github.com/BROngineer/oh-my-env/compare/v1.4.1...v1.4.2) (2026-09-13)
 
 
