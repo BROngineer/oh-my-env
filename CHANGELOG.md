@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/BROngineer/oh-my-env/compare/v1.4.3...v1.4.4) (2026-09-14)
+
+
+### Miscellaneous
+
+* add task for force completions gen ([#36](https://github.com/BROngineer/oh-my-env/issues/36)) ([9fc2c8d](https://github.com/BROngineer/oh-my-env/commit/9fc2c8de083eaa471ddc1cd2445d2f82436c3450))
+
 ## [1.4.3](https://github.com/BROngineer/oh-my-env/compare/v1.4.2...v1.4.3) (2026-09-14)
 
 
