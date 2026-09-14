@@ -1,0 +1,11 @@
+[tasks.gen-completions]
+description = "Force completions gen"
+run = [
+    'mkdir -p ${HOME}/.local/share/zsh/completions',
+    'gh completion -s zsh > ${HOME}/.local/share/zsh/completions/_gh',
+    'lfk completion zsh > ${HOME}/.local/share/zsh/completions/_lfk',
+    'atuin gen-completions --shell zsh > ${HOME}/.local/share/zsh/completions/_atuin',
+    'kubectl completion zsh > ${HOME}/.local/share/zsh/completions/_kubectl',
+    'clusterctl completion zsh > ${HOME}/.local/share/zsh/completions/_clusterctl',
+    'yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq'
+]
