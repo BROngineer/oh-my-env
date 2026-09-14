@@ -11,7 +11,7 @@ gcloud = "569.0.0"
 azure-cli = "2.90.0"
 pipx = "1.16.7"
 pytest = "9.1.1"
-python = "3.13.7"
+python = "3.14.7"
 krew = "v0.5.0"
 
 [tool_alias]
