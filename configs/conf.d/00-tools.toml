@@ -1,7 +1,7 @@
 [tools]
 go = "1.27.1"
 gh = {
-  version = "2.100.0",
+  version = "2.101.0",
   postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && gh completion -s zsh > ${HOME}/.local/share/zsh/completions/_gh"
 }
 lfk = {
