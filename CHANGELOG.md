@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/BROngineer/oh-my-env/compare/v1.4.5...v1.4.6) (2026-09-16)
+
+
+### Bug Fixes
+
+* argocd postinstall ([#43](https://github.com/BROngineer/oh-my-env/issues/43)) ([c8f00f7](https://github.com/BROngineer/oh-my-env/commit/c8f00f739989d2dcf9ce8b67182dd795592ce26d))
+
 ## [1.4.5](https://github.com/BROngineer/oh-my-env/compare/v1.4.4...v1.4.5) (2026-09-16)
 
 
