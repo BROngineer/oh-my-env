@@ -4,7 +4,7 @@ auto_update = true
 
 [tools]
 oh-my-env = {
-    version = "v1.4.4", # x-release-please-version
+    version = "v1.4.5", # x-release-please-version
     asset_pattern = "oh-my-env-configs.tar.gz",
     minimum_release_age = "0s",
     postinstall = '''

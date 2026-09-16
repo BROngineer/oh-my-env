@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.5](https://github.com/BROngineer/oh-my-env/compare/v1.4.4...v1.4.5) (2026-09-16)
+
+
+### Miscellaneous
+
+* add argocd cli to tools ([#42](https://github.com/BROngineer/oh-my-env/issues/42)) ([1c724d4](https://github.com/BROngineer/oh-my-env/commit/1c724d441a1f7e182669f1a17baafd42f1cd76d8))
+* **deps:** update dependency gh to v2.101.0 ([#40](https://github.com/BROngineer/oh-my-env/issues/40)) ([191ad3a](https://github.com/BROngineer/oh-my-env/commit/191ad3a0921f8755c5b190b5347335efe41914c9))
+* **deps:** update dependency pipx to v1.17.3 ([#39](https://github.com/BROngineer/oh-my-env/issues/39)) ([f0ce080](https://github.com/BROngineer/oh-my-env/commit/f0ce080c3594f64e384995b68c1c079c112d6e86))
+
 ## [1.4.4](https://github.com/BROngineer/oh-my-env/compare/v1.4.3...v1.4.4) (2026-09-14)
 
 
