@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.7](https://github.com/BROngineer/oh-my-env/compare/v1.4.6...v1.4.7) (2026-09-16)
+
+
+### Bug Fixes
+
+* task gen-completions ([#45](https://github.com/BROngineer/oh-my-env/issues/45)) ([a8bf611](https://github.com/BROngineer/oh-my-env/commit/a8bf61176807eeaa9dc337292adf0440452a4b9e))
+
+
+### Miscellaneous
+
+* **deps:** update dependency awscli to v2.36.46 ([#38](https://github.com/BROngineer/oh-my-env/issues/38)) ([8390652](https://github.com/BROngineer/oh-my-env/commit/839065242b0273502358e4fbd1ea0b015c8dcc61))
+
 ## [1.4.6](https://github.com/BROngineer/oh-my-env/compare/v1.4.5...v1.4.6) (2026-09-16)
 
 
