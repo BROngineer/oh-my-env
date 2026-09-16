@@ -8,5 +8,5 @@ run = [
     'kubectl completion zsh > ${HOME}/.local/share/zsh/completions/_kubectl',
     'clusterctl completion zsh > ${HOME}/.local/share/zsh/completions/_clusterctl',
     'yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq',
-    'argocd completion -s zsh > ${HOME}/.local/share/zsh/completions/_argocd'
+    'argocd completion zsh > ${HOME}/.local/share/zsh/completions/_argocd'
 ]
