@@ -2,7 +2,7 @@
 go = "1.27.1"
 argocd = {
     version = "v3.5.3",
-    postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && argocd completion -s zsh > ${HOME}/.local/share/zsh/completions/_argocd"
+    postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && argocd completion zsh > ${HOME}/.local/share/zsh/completions/_argocd"
 }
 gh = {
     version = "2.101.0",
