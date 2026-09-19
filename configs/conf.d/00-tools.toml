@@ -28,7 +28,7 @@ clusterctl = {
     version = "1.14.2",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && clusterctl completion zsh > ${HOME}/.local/share/zsh/completions/_clusterctl"
 }
-awscli = "2.36.46"
+awscli = "2.36.49"
 yq = {
     version = "4.53.6",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq"
