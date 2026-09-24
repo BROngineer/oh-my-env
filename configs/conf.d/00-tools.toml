@@ -21,7 +21,7 @@ atuin = {
     '''
 }
 kubectl = {
-    version = "1.37.0",
+    version = "1.37.1",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kubectl completion zsh > ${HOME}/.local/share/zsh/completions/_kubectl"
 }
 clusterctl = {
