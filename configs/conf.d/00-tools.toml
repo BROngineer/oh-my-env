@@ -5,7 +5,7 @@ argocd = {
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && argocd completion zsh > ${HOME}/.local/share/zsh/completions/_argocd"
 }
 gh = {
-    version = "2.101.0",
+    version = "2.102.0",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && gh completion -s zsh > ${HOME}/.local/share/zsh/completions/_gh"
 }
 lfk = {
