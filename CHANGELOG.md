@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.5.0](https://github.com/BROngineer/oh-my-env/compare/v1.4.7...v1.5.0) (2026-10-08)
+
+
+### Features
+
+* add kind, helm, uv, direnv tools ([#57](https://github.com/BROngineer/oh-my-env/issues/57)) ([ba88350](https://github.com/BROngineer/oh-my-env/commit/ba88350b1385fbe5f0d580208aca0d3ac3349097))
+
+
+### Miscellaneous
+
+* **deps:** update dependency argocd to v3.5.4 ([#55](https://github.com/BROngineer/oh-my-env/issues/55)) ([be21389](https://github.com/BROngineer/oh-my-env/commit/be2138952c2743e1cd50050b7a328a627947397b))
+* **deps:** update dependency atuin to v18.23.0 ([#49](https://github.com/BROngineer/oh-my-env/issues/49)) ([612f8c4](https://github.com/BROngineer/oh-my-env/commit/612f8c46ea35c129fe54762f32d86b3bfeca44c1))
+* **deps:** update dependency awscli to v2.37.10 ([#47](https://github.com/BROngineer/oh-my-env/issues/47)) ([0d29a57](https://github.com/BROngineer/oh-my-env/commit/0d29a577cfd03e2bcdd10eccf72d50e4fee164fa))
+* **deps:** update dependency azure-cli to v2.91.0 ([#54](https://github.com/BROngineer/oh-my-env/issues/54)) ([fcabe89](https://github.com/BROngineer/oh-my-env/commit/fcabe8913b1ee49d52228a6d481832c87773ed26))
+* **deps:** update dependency clusterctl to v1.14.3 ([#56](https://github.com/BROngineer/oh-my-env/issues/56)) ([eb79ea7](https://github.com/BROngineer/oh-my-env/commit/eb79ea7198774e041eaeeb611782278fd4b027e8))
+* **deps:** update dependency gh to v2.102.0 ([#52](https://github.com/BROngineer/oh-my-env/issues/52)) ([79f1bbb](https://github.com/BROngineer/oh-my-env/commit/79f1bbb2be92fbeaea7dd9748d93b05ef448d50a))
+* **deps:** update dependency kubectl to v1.37.1 ([#50](https://github.com/BROngineer/oh-my-env/issues/50)) ([0747101](https://github.com/BROngineer/oh-my-env/commit/0747101360cae8d52fc4e8f4a530d75c0ccac36a))
+* **deps:** update dependency pipx to v1.17.12 ([#48](https://github.com/BROngineer/oh-my-env/issues/48)) ([49eab32](https://github.com/BROngineer/oh-my-env/commit/49eab320e4e296d0a5c0709f51d1d8a616fae7b7))
+* **deps:** update dependency python to v3.14.8 ([#53](https://github.com/BROngineer/oh-my-env/issues/53)) ([739d240](https://github.com/BROngineer/oh-my-env/commit/739d24081af77f2bed474cdbfb508e67504c63e8))
+* **deps:** update dependency yq to v4.54.1 ([#51](https://github.com/BROngineer/oh-my-env/issues/51)) ([4b75d8b](https://github.com/BROngineer/oh-my-env/commit/4b75d8b95af1a5ad2a32a362e9929d0d0514ee0a))
+
 ## [1.4.7](https://github.com/BROngineer/oh-my-env/compare/v1.4.6...v1.4.7) (2026-09-16)
 
 
