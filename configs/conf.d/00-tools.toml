@@ -9,7 +9,7 @@ gh = {
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && gh completion -s zsh > ${HOME}/.local/share/zsh/completions/_gh"
 }
 lfk = {
-    version = "v0.18.9",
+    version = "v0.19.3",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && lfk completion zsh > ${HOME}/.local/share/zsh/completions/_lfk"
 }
 atuin = {
@@ -33,15 +33,15 @@ yq = {
     version = "4.54.1",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq"
 }
-gcloud = "569.0.0"
+gcloud = "588.0.0"
 azure-cli = "2.91.0"
 pipx = "1.17.12"
 pytest = "9.1.1"
 python = "3.14.8"
 krew = "v0.5.0"
-uv = "0.11.15" # required by the azure-cli
+uv = "0.12.23" # required by the azure-cli
 helm = "4.3.0"
-direnv = "2.37.1"
+direnv = "2.38.1"
 kind = "0.33.0"
 
 [tool_alias]
