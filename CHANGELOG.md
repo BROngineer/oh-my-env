@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/BROngineer/oh-my-env/compare/v1.5.0...v1.5.1) (2026-10-08)
+
+
+### Miscellaneous
+
+* bump tools versions to latest ([#59](https://github.com/BROngineer/oh-my-env/issues/59)) ([dc0436f](https://github.com/BROngineer/oh-my-env/commit/dc0436fb89551469ba6432635c1143d48b0b8f52))
+
 ## [1.5.0](https://github.com/BROngineer/oh-my-env/compare/v1.4.7...v1.5.0) (2026-10-08)
 
 
