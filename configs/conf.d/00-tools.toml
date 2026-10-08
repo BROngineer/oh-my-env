@@ -13,7 +13,7 @@ lfk = {
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && lfk completion zsh > ${HOME}/.local/share/zsh/completions/_lfk"
 }
 atuin = {
-    version = "18.22.0",
+    version = "18.23.0",
     postinstall = '''
         mkdir -p ${HOME}/.local/share/zsh/completions && \
         atuin gen-completions --shell zsh > ${HOME}/.local/share/zsh/completions/_atuin && \
