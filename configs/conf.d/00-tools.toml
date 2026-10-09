@@ -40,9 +40,15 @@ pytest = "9.1.1"
 python = "3.14.8"
 krew = "v0.5.0"
 uv = "0.12.23" # required by the azure-cli
-helm = "4.3.0"
+helm = {
+    version = "4.3.0",
+    postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && helm completion zsh > ${HOME}/.local/share/zsh/completions/_helm"
+}
 direnv = "2.38.1"
-kind = "0.33.0"
+kind = {
+    version = "0.33.0",
+    postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kind completion zsh > ${HOME}/.local/share/zsh/completions/_kind"
+}
 
 [tool_alias]
 lfk = "github:janosmiko/lfk"
