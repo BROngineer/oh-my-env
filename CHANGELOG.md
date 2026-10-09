@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.0](https://github.com/BROngineer/oh-my-env/compare/v1.5.1...v1.6.0) (2026-10-09)
+
+
+### Features
+
+* add claude code tool ([#65](https://github.com/BROngineer/oh-my-env/issues/65)) ([724648f](https://github.com/BROngineer/oh-my-env/commit/724648f6780bf494422d83f8241a8637fa359545))
+
+
+### Miscellaneous
+
+* add completions for mise, helm, kind ([#63](https://github.com/BROngineer/oh-my-env/issues/63)) ([9bc52bb](https://github.com/BROngineer/oh-my-env/commit/9bc52bbe945f11d7be427876d522fb2d3189abf0))
+* **deps:** update dependency awscli to v2.37.11 ([#61](https://github.com/BROngineer/oh-my-env/issues/61)) ([8f9a3af](https://github.com/BROngineer/oh-my-env/commit/8f9a3af3ea4994b61cb8e8aeee99103256ef685e))
+* **deps:** update dependency go to v1.27.2 ([#62](https://github.com/BROngineer/oh-my-env/issues/62)) ([c63eac6](https://github.com/BROngineer/oh-my-env/commit/c63eac66beb609a5b1d17ed6aad6ecadc5135a62))
+
 ## [1.5.1](https://github.com/BROngineer/oh-my-env/compare/v1.5.0...v1.5.1) (2026-10-08)
 
 
