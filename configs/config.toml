@@ -9,7 +9,7 @@ oh-my-env = {
     minimum_release_age = "0s",
     postinstall = '''
         cp -R $MISE_TOOL_INSTALL_PATH/* ${HOME}/.config/mise/ && \
-        mkdir -p ${HOME}/.local/share/zsh/completions && \
+        mkdir -p ${HOME}/.local/share/zsh/completions && mise completion zsh > ${HOME}/.local/share/zsh/completions/_mise && \
         (grep -qF 'fpath=(${HOME}/.local/share/zsh/completions $fpath)' ${HOME}/.zshrc || printf '%s\n%s\n' 'fpath=(${HOME}/.local/share/zsh/completions $fpath)' 'autoload -Uz compinit && compinit' >> ${HOME}/.zshrc)
     '''
 }
