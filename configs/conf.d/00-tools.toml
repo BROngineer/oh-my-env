@@ -49,6 +49,10 @@ kind = {
     version = "0.33.0",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kind completion zsh > ${HOME}/.local/share/zsh/completions/_kind"
 }
+claude = {
+    version = "2.1.295",
+    minimum_release_age = "0s"
+}
 
 [tool_alias]
 lfk = "github:janosmiko/lfk"
