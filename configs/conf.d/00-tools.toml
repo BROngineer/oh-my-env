@@ -50,7 +50,7 @@ kind = {
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kind completion zsh > ${HOME}/.local/share/zsh/completions/_kind"
 }
 claude = {
-    version = "2.1.295",
+    version = "2.1.296",
     minimum_release_age = "0s"
 }
 
