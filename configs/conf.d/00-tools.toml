@@ -44,7 +44,7 @@ helm = {
     version = "4.3.0",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && helm completion zsh > ${HOME}/.local/share/zsh/completions/_helm"
 }
-direnv = "2.38.1"
+direnv = "2.38.2"
 kind = {
     version = "0.33.0",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kind completion zsh > ${HOME}/.local/share/zsh/completions/_kind"
