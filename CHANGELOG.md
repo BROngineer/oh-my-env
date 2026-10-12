@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.2](https://github.com/BROngineer/oh-my-env/compare/v1.6.1...v1.6.2) (2026-10-12)
+
+
+### Bug Fixes
+
+* downgrade python to fix azure-cli compatibility ([#75](https://github.com/BROngineer/oh-my-env/issues/75)) ([a1c44dd](https://github.com/BROngineer/oh-my-env/commit/a1c44dd7c6cbb1ae08138fca4e1bca62e88e2b62))
+
+
+### Miscellaneous
+
+* renovate auto-merge ([#74](https://github.com/BROngineer/oh-my-env/issues/74)) ([7964bb9](https://github.com/BROngineer/oh-my-env/commit/7964bb92781c92b519b39423fa30e1079f6e3ba1))
+
 ## [1.6.1](https://github.com/BROngineer/oh-my-env/compare/v1.6.0...v1.6.1) (2026-10-12)
 
 
