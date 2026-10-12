@@ -3,6 +3,14 @@
   "extends": ["config:recommended"],
   "commitMessagePrefix": "chore(deps):",
   "commitMessageAction": "update",
+  "automerge": true,
+  "platformAutomerge": false,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    }
+  ],
   "mise": {
     "fileMatch": ["^configs/conf\\.d/.*\\.toml$"]
   }
