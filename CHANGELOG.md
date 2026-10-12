@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.1](https://github.com/BROngineer/oh-my-env/compare/v1.6.0...v1.6.1) (2026-10-12)
+
+
+### Miscellaneous
+
+* **deps:** update dependency awscli to v2.37.12 ([#66](https://github.com/BROngineer/oh-my-env/issues/66)) ([808a9cc](https://github.com/BROngineer/oh-my-env/commit/808a9cc886a9b8f6bd26950cb28949b36b6b5be6))
+* **deps:** update dependency claude to v2.1.296 ([#67](https://github.com/BROngineer/oh-my-env/issues/67)) ([ff12edc](https://github.com/BROngineer/oh-my-env/commit/ff12edc589e70342d690c2ed70ef2edb4c8ee96b))
+* **deps:** update dependency direnv to v2.38.2 ([#69](https://github.com/BROngineer/oh-my-env/issues/69)) ([c1a4298](https://github.com/BROngineer/oh-my-env/commit/c1a42980b9c5183954a9e21006c5b097d9cd3a0d))
+* **deps:** update dependency pipx to v1.17.13 ([#70](https://github.com/BROngineer/oh-my-env/issues/70)) ([6ae390c](https://github.com/BROngineer/oh-my-env/commit/6ae390c1684be61df2c91d05e812761bdccac8a8))
+* **deps:** update dependency python to v3.15.0 ([#68](https://github.com/BROngineer/oh-my-env/issues/68)) ([8ec7d9c](https://github.com/BROngineer/oh-my-env/commit/8ec7d9c4be53e03f8a3accf6f2e8ae1654dfa62b))
+* **deps:** update dependency uv to v0.13.0 ([#71](https://github.com/BROngineer/oh-my-env/issues/71)) ([484795d](https://github.com/BROngineer/oh-my-env/commit/484795d3d5cbe963c0cf3e1ab52efe96bb5d7d16))
+* disable global lockfile ([#72](https://github.com/BROngineer/oh-my-env/issues/72)) ([b3a95a2](https://github.com/BROngineer/oh-my-env/commit/b3a95a205d6dea866e93c8236fbae32a54f12bb3))
+
 ## [1.6.0](https://github.com/BROngineer/oh-my-env/compare/v1.5.1...v1.6.0) (2026-10-09)
 
 
