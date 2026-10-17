@@ -41,7 +41,7 @@ python = "3.14.8"
 krew = "v0.5.0"
 uv = "0.13.0" # required by the azure-cli
 helm = {
-    version = "4.3.0",
+    version = "4.3.1",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && helm completion zsh > ${HOME}/.local/share/zsh/completions/_helm"
 }
 direnv = "2.38.2"
