@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.3](https://github.com/BROngineer/oh-my-env/compare/v1.6.2...v1.6.3) (2026-10-17)
+
+
+### Miscellaneous
+
+* **deps:** update dependency argocd to v3.5.5 ([#77](https://github.com/BROngineer/oh-my-env/issues/77)) ([4e33b13](https://github.com/BROngineer/oh-my-env/commit/4e33b13e2d0cb10d837b3824f1375100299c8d71))
+* **deps:** update dependency helm to v4.3.1 ([#83](https://github.com/BROngineer/oh-my-env/issues/83)) ([8042981](https://github.com/BROngineer/oh-my-env/commit/80429812bbfbe1a4e237af783148e1fa5c58053b))
+
 ## [1.6.2](https://github.com/BROngineer/oh-my-env/compare/v1.6.1...v1.6.2) (2026-10-12)
 
 
