@@ -1,5 +1,5 @@
 [tools]
-go = "1.27.2"
+go = "1.27.3"
 argocd = {
     version = "3.5.5",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && argocd completion zsh > ${HOME}/.local/share/zsh/completions/_argocd"
