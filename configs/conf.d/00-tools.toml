@@ -35,7 +35,7 @@ yq = {
 }
 gcloud = "588.0.0"
 azure-cli = "2.91.0"
-pipx = "1.17.13"
+pipx = "1.18.4"
 pytest = "9.1.1"
 python = "3.14.8"
 krew = "v0.5.0"
