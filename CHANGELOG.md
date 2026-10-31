@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.6.3](https://github.com/BROngineer/oh-my-env/compare/v1.6.2...v1.6.3) (2026-10-31)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v6.1.0 ([#89](https://github.com/BROngineer/oh-my-env/issues/89)) ([960ddb7](https://github.com/BROngineer/oh-my-env/commit/960ddb7186b8514c6d6ae43f36671796bbb21ff6))
+* **deps:** update actions/checkout action to v7 ([#90](https://github.com/BROngineer/oh-my-env/issues/90)) ([0a32e3d](https://github.com/BROngineer/oh-my-env/commit/0a32e3dbb0edec53de925a7e513aaeb33e2d38db))
+* **deps:** update dependency argocd to v3.5.5 ([#77](https://github.com/BROngineer/oh-my-env/issues/77)) ([4e33b13](https://github.com/BROngineer/oh-my-env/commit/4e33b13e2d0cb10d837b3824f1375100299c8d71))
+* **deps:** update dependency argocd to v3.5.6 ([#92](https://github.com/BROngineer/oh-my-env/issues/92)) ([4a19796](https://github.com/BROngineer/oh-my-env/commit/4a197969d9b823a7ff5dfabaecc1cd8ed6cae6fa))
+* **deps:** update dependency atuin to v18.24.1 ([#85](https://github.com/BROngineer/oh-my-env/issues/85)) ([4bac6d6](https://github.com/BROngineer/oh-my-env/commit/4bac6d6978409fd82ac8a7df45d8feb08d429cbf))
+* **deps:** update dependency atuin to v18.24.2 ([#95](https://github.com/BROngineer/oh-my-env/issues/95)) ([a0def08](https://github.com/BROngineer/oh-my-env/commit/a0def0885ff7a8a9b32be3d4185dcd438a7d5149))
+* **deps:** update dependency atuin to v18.24.4 ([#100](https://github.com/BROngineer/oh-my-env/issues/100)) ([34790b2](https://github.com/BROngineer/oh-my-env/commit/34790b2c824774ea2963d143bdaa6e80776f5bed))
+* **deps:** update dependency claude to v2.1.302 ([#81](https://github.com/BROngineer/oh-my-env/issues/81)) ([0a61d8f](https://github.com/BROngineer/oh-my-env/commit/0a61d8f63355eae584bc57b59a75a09d57e92200))
+* **deps:** update dependency claude to v2.1.310 ([#86](https://github.com/BROngineer/oh-my-env/issues/86)) ([1fcc38d](https://github.com/BROngineer/oh-my-env/commit/1fcc38d4e4a07f7d14e210c483cf357aeb7ffde9))
+* **deps:** update dependency go to v1.27.3 ([#87](https://github.com/BROngineer/oh-my-env/issues/87)) ([d50e491](https://github.com/BROngineer/oh-my-env/commit/d50e4919d76be331143d44be0d1fb001594a9ca0))
+* **deps:** update dependency helm to v4.3.1 ([#83](https://github.com/BROngineer/oh-my-env/issues/83)) ([8042981](https://github.com/BROngineer/oh-my-env/commit/80429812bbfbe1a4e237af783148e1fa5c58053b))
+* **deps:** update dependency kubectl to v1.37.2 ([#98](https://github.com/BROngineer/oh-my-env/issues/98)) ([0ae4603](https://github.com/BROngineer/oh-my-env/commit/0ae4603ab9487defb3784b32f3c32b56a55d7524))
+* **deps:** update dependency pipx to v1.18.4 ([#79](https://github.com/BROngineer/oh-my-env/issues/79)) ([ed64b15](https://github.com/BROngineer/oh-my-env/commit/ed64b15ef21b96fc1e16407fc2037a9d495d4c5c))
+* **deps:** update dependency uv to v0.13.1 ([#84](https://github.com/BROngineer/oh-my-env/issues/84)) ([53a3340](https://github.com/BROngineer/oh-my-env/commit/53a33407fbb4999261c35fa58bf99316a68ae5b5))
+* **deps:** update dependency uv to v0.13.5 ([#88](https://github.com/BROngineer/oh-my-env/issues/88)) ([cc4fd7b](https://github.com/BROngineer/oh-my-env/commit/cc4fd7bc4743cf9456f57a9b6d1211a9062154a0))
+* **deps:** update dependency uv to v0.13.6 ([#97](https://github.com/BROngineer/oh-my-env/issues/97)) ([a8b0c4e](https://github.com/BROngineer/oh-my-env/commit/a8b0c4e82e0cf704d9c92a3eb177f2ecf6b6b8c1))
+
 ## [1.6.2](https://github.com/BROngineer/oh-my-env/compare/v1.6.1...v1.6.2) (2026-10-12)
 
 
