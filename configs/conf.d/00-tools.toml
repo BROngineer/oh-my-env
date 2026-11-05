@@ -25,7 +25,7 @@ kubectl = {
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && kubectl completion zsh > ${HOME}/.local/share/zsh/completions/_kubectl"
 }
 clusterctl = {
-    version = "1.14.3",
+    version = "1.14.4",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && clusterctl completion zsh > ${HOME}/.local/share/zsh/completions/_clusterctl"
 }
 awscli = "2.39.3"
