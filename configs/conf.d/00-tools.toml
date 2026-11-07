@@ -30,7 +30,7 @@ clusterctl = {
 }
 awscli = "2.39.3"
 yq = {
-    version = "4.54.1",
+    version = "4.54.2",
     postinstall = "mkdir -p ${HOME}/.local/share/zsh/completions && yq completion zsh > ${HOME}/.local/share/zsh/completions/_yq"
 }
 gcloud = "588.0.0"
